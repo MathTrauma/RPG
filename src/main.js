@@ -64,4 +64,6 @@ terrainFolder.add(terrain, 'height', 1, 20, 1).name('height');
 terrainFolder.addColor(terrain.terrain.material, 'color').name('color');
 terrainFolder.onChange(()=>{
     terrain.createTerrain();
-})
+});
+
+//test!
